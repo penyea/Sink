@@ -56,22 +56,22 @@
       }
     },
     "cta": {
-      "title": "Deploy Sink",
-      "description": "Follow the getting started guide to configure and deploy Sink on Cloudflare",
-      "button": "Read Deployment Guide"
-    },
+  "title": "Ready to get started?",
+  "description": "Sign up now and create your first short link in seconds — track every click that matters",
+  "button": "Sign Up Free"
+},
     "logos": {
       "title": "Built with awesome technologies"
     },
     "twitter": {
       "follow": "Follow on X(Twitter)"
     },
-    "stats": {
-      "title": "Sink in Numbers",
-      "subtitle": "Trusted by developers around the world",
-      "stars": "Stars on GitHub",
-      "forks": "Forks"
-    },
+   "stats": {
+  "title": "A Link Service You Can Trust",
+  "subtitle": "Businesses around the world use ZipURL to manage and track their links",
+  "stars": "Links Created",
+  "forks": "Clicks Tracked Monthly"
+},
     "testimonials": {
       "title": "Loved by Users",
       "subtitle": "See what developers are saying about Sink"
