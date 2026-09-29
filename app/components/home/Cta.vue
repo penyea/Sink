@@ -1,5 +1,4 @@
 <script setup lang="ts">
-const { documentation } = useAppConfig()
 </script>
 
 <template>
@@ -33,23 +32,8 @@ const { documentation } = useAppConfig()
               as-child
               size="lg"
             >
-              <a
-                :href="`${documentation}/guide/getting-started`"
-                target="_blank"
-                rel="noopener noreferrer"
-                :title="$t('home.cta.button')"
-              >
+              <NuxtLink to="/dashboard/login">
                 {{ $t('home.cta.button') }}
-              </a>
-            </Button>
-
-            <Button
-              as-child
-              size="lg"
-              variant="outline"
-            >
-              <NuxtLink to="/dashboard" :title="$t('dashboard.title')">
-                {{ $t('dashboard.title') }}
               </NuxtLink>
             </Button>
           </div>
