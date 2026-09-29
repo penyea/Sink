@@ -55,23 +55,23 @@
         "description": "仪表盘和跳转页面完整的国际化支持"
       }
     },
-    "cta": {
-      "title": "部署 Sink",
-      "description": "阅读入门指南，在 Cloudflare 上配置并部署 Sink",
-      "button": "查看部署指南"
-    },
+   "cta": {
+  "title": "准备好开始了吗？",
+  "description": "现在注册，几秒钟内创建你的第一条短链接，并追踪每一次点击带来的价值",
+  "button": "免费注册"
+},
     "logos": {
       "title": "使用优秀的技术构建"
     },
     "twitter": {
       "follow": "在 X(Twitter) 上关注我"
     },
-    "stats": {
-      "title": "Sink 数据",
-      "subtitle": "受到全球开发者的信赖",
-      "stars": "GitHub Stars",
-      "forks": "Forks"
-    },
+   "stats": {
+  "title": "值得信赖的短链服务",
+  "subtitle": "全球用户都在使用 ZipURL 管理和追踪他们的链接",
+  "stars": "累计生成短链",
+  "forks": "月点击追踪量"
+},
     "testimonials": {
       "title": "用户好评",
       "subtitle": "看看开发者们怎么说"
