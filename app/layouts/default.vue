@@ -11,7 +11,7 @@ import {
 } from '@/components/ui/sheet'
 
 const mobileMenuOpen = shallowRef(false)
-const { title, telegram, twitter, github } = useAppConfig()
+const { title, telegram, twitter } = useAppConfig()
 
 function closeMobileMenu() {
   mobileMenuOpen.value = false
@@ -67,12 +67,22 @@ function closeMobileMenu() {
 
             <div
               class="
-                hidden items-center gap-6
+                hidden items-center gap-3
                 lg:flex
               "
             >
               <SwitchLanguage />
               <SwitchTheme />
+              <Button as-child variant="ghost">
+                <NuxtLink to="/dashboard/login">
+                  登录
+                </NuxtLink>
+              </Button>
+              <Button as-child>
+                <NuxtLink to="/dashboard/login">
+                  免费注册
+                </NuxtLink>
+              </Button>
             </div>
 
             <Sheet v-model:open="mobileMenuOpen">
@@ -119,6 +129,16 @@ function closeMobileMenu() {
                   "
                 >
                   <div class="mt-auto flex flex-col items-stretch gap-4">
+                    <Button as-child variant="outline">
+                      <NuxtLink to="/dashboard/login" @click="closeMobileMenu">
+                        登录
+                      </NuxtLink>
+                    </Button>
+                    <Button as-child>
+                      <NuxtLink to="/dashboard/login" @click="closeMobileMenu">
+                        免费注册
+                      </NuxtLink>
+                    </Button>
                     <div class="flex items-center justify-center gap-3">
                       <SwitchLanguage />
                       <SwitchTheme />
